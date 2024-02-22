@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+### Productos Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Descripción
+Este es el repositorio del proyecto frontend para la aplicación de gestión de productos.
 
-## Available Scripts
+#### Requisitos Previos
 
-In the project directory, you can run:
+- **Node.js:** Asegúrate de tener instalado Node.js en tu máquina. Puedes descargarlo desde [aquí](https://nodejs.org/).
 
-### `npm start`
+#### Instalación
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clona este repositorio en tu máquina local.
+2. Abre una terminal en la carpeta raíz del proyecto.
+3. Ejecuta el siguiente comando para instalar las dependencias:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   npm install
 
-### `npm test`
+#### Ejecución
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Una vez que hayas instalado las dependencias, puedes ejecutar la aplicación con el siguiente comando:
 
-### `npm run build`
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Este comando ejecutará la aplicación en modo de desarrollo. Abre [http://localhost:3000](http://localhost:3000) para ver la aplicación en tu navegador.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Dependencias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **@emotion/react**: ^11.11.3
+- **@emotion/styled**: ^11.11.0
+- **@mui/material**: ^5.15.10
+- **@mui/styles**: ^5.15.10
+- **@tanstack/react-table**: ^8.12.0
+- **@testing-library/jest-dom**: ^5.17.0
+- **@testing-library/react**: ^13.4.0
+- **@testing-library/user-event**: ^13.5.0
+- **@tsparticles/react**: ^3.0.0
+- **axios**: ^1.6.7
+- **react**: ^18.2.0
+- **react-dom**: ^18.2.0
+- **react-modal**: ^3.16.1
+- **react-scripts**: 5.0.1
+- **react-tsparticles**: ^2.12.2
+- **tsparticles**: ^3.2.2
+- **web-vitals**: ^2.1.4
 
-### `npm run eject`
+#### Scripts Disponibles
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+En el directorio del proyecto, puedes ejecutar:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **npm start:** Ejecuta la aplicación en modo de desarrollo. Abre [http://localhost:3000](http://localhost:3000) para verla en tu navegador.
+- **npm run build:** Construye la aplicación para producción en la carpeta `build`.
+- **npm test:** Inicia el corredor de pruebas en el modo de observación interactiva.
+- **npm run eject:** Expulsa la configuración de la aplicación.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Más Información
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Para obtener más información sobre Create React App, consulta la documentación de [Create React App](https://create-react-app.dev/).
+- Para aprender sobre React, consulta la documentación oficial de [React](https://reactjs.org/).
 
-## Learn More
+#### Autor
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Daniel Piñeros

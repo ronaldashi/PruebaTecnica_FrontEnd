@@ -1,0 +1,9 @@
+.inventory-total-container {
+  text-align: right; 
+  margin-right: 20px; 
+}
+.inventory-total-value {
+  font-size: 24px;
+  color: #007bff;
+  font-weight: bold;
+}

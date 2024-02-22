@@ -1,0 +1,68 @@
+/* Estilos para la tabla */
+.table-container {
+    width: 90%;
+    margin: 0 auto; /* Centra horizontalmente el contenedor de la tabla */
+}
+
+table {
+    align-items: center;
+    width: 100%; /* Cambia el ancho de la tabla al 100% del contenedor */
+    max-width: 1400px; /* Establece un ancho máximo para la tabla */
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    color: #fff;
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 auto; /* Centra horizontalmente la tabla dentro de su contenedor */
+}
+
+h2, h3, p {
+    color: #fff;
+}
+
+
+.modal-container {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(4, 188, 234, 0.2);
+    background-color: #088deb;
+}
+
+.modal-overlay {
+    background-color: rgba(24, 75, 132, 0.5);
+}
+
+.modal-container h2 {
+    color: #000000; /* Cambia el color del texto a blanco */
+}
+
+td, th {
+    padding: 16px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+}
+
+tr {
+    background-color: #222;
+    transition: background-color 0.3s ease;
+}
+
+tr:hover {
+    background-color: #444;
+}
+
+.container {
+    text-align: center;
+}
+
+.center {
+    margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+}

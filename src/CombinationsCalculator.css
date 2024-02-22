@@ -1,0 +1,48 @@
+.combinations-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .combinations-list {
+    margin-top: 20px;
+  }
+  
+  .combinations-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .combinations-list li {
+    margin-bottom: 10px;
+  }
+
+  span, li {
+    color:white
+  }
+  
